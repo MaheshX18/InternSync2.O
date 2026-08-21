@@ -1,0 +1,4749 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Master",
+      "lastName": "Administrator",
+      "createdAt": "2026-08-10T07:59:19.106Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_company_001",
+      "email": "recruiter@techcorp.com",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "TechCorp",
+      "lastName": "Recruitment",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "companyWebsite": "https://techcorp.example.com",
+      "companyDescription": "Leading enterprise cloud solution provider.",
+      "industry": "Updated Tech",
+      "createdAt": "2026-08-10T07:59:19.106Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_student_001",
+      "email": "student@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "department": "Computer Science",
+      "institutionId": "INST-2026",
+      "rollNumber": "CS-2026-001",
+      "batch": "2026",
+      "gpa": 3.8,
+      "phone": "+1 555-0143",
+      "bio": "Updated bio Phase 8",
+      "skills": [
+        "Java",
+        "TypeScript",
+        "React",
+        "R"
+      ],
+      "createdAt": "2026-08-10T07:59:19.106Z",
+      "bookmarks": [],
+      "resumeUrl": "resume.pdf",
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_fa29c900c0187021",
+      "email": "student_p4_1786348764@example.com",
+      "passwordHash": "$2b$10$gK9OUF9dj6G5O8/48E2WBu246esDP9djJcfWagh5XsP8wR5uO7w72",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T07:59:24.263Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_5b4d2621c7588973",
+      "email": "company_a_p4_1786348764@example.com",
+      "passwordHash": "$2b$10$36fC3rN/FMhU.cVqUd1BHORkCIG5tWYWJTS3M4rXhDGxbVVta2dAm",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_5b4d2621c7588973",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T07:59:24.364Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_4658c648f401eaf5",
+      "email": "company_b_p4_1786348764@example.com",
+      "passwordHash": "$2b$10$1xO8KbMXYQf/xQYaPlTcdefR.3y.jMdh5u7GqDp9J/0oTUH1jBSLe",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_4658c648f401eaf5",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T07:59:24.462Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_fa66131287c9e110",
+      "email": "admin_p4_1786348764@example.com",
+      "passwordHash": "$2b$10$HoR688JPg4fD79n4O420z.2HUEGbwFrW4QZmLLlhbB0.VxlfPObM2",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T07:59:24.557Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_b14672bde7c15ab9",
+      "email": "student_p4_1786348814@example.com",
+      "passwordHash": "$2b$10$.rGO69TGq.XHB2blpwIUJelo06cfeMNZUUkRw3A1OcSR2du5wZq8K",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:00:14.789Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_2ec6018dcff851f7",
+      "email": "company_a_p4_1786348814@example.com",
+      "passwordHash": "$2b$10$wvw6hqC7SMZ3/a1QYFAq5.QbjVVYOKzRfWzQlVNQ2i5n9EiSUtTpi",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_2ec6018dcff851f7",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:00:14.885Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_7a05cf9e1c7e8e45",
+      "email": "company_b_p4_1786348814@example.com",
+      "passwordHash": "$2b$10$s8tgWP7GFnGjjBY98oHyM.KTRd7dqH1LcFGaQkeEV56ssVIKgjnJq",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_7a05cf9e1c7e8e45",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:00:14.982Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_07591a1bc6b210c8",
+      "email": "admin_p4_1786348814@example.com",
+      "passwordHash": "$2b$10$CEhTvOvfdy2TsN4C0F1ptODWu73FaGKtpGeLtskRSu0sidy3dT5/O",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:00:15.079Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_adcc4eb31799f55e",
+      "email": "student_p4_1786348932@example.com",
+      "passwordHash": "$2b$10$mUOy5qzHreitmjcd8uvD2eh5GOBDxjlD.8NS9a6psSCJDbw5wGC5m",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:02:13.073Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_7c2c545bc4031b9c",
+      "email": "company_a_p4_1786348932@example.com",
+      "passwordHash": "$2b$10$5.OshQlOIqd63zHWEI4ewuScaDvENyy/CSfUVTnmT5xWAOfzFyw/6",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_7c2c545bc4031b9c",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:02:13.174Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_ce6155d949a48583",
+      "email": "company_b_p4_1786348932@example.com",
+      "passwordHash": "$2b$10$z.MLZYfq7RX7WhB2n5G/WuFSx1wy1dJUd1U.5RAG7dj/85iqt21RG",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_ce6155d949a48583",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:02:13.270Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_19dd1fff76a0a442",
+      "email": "admin_p4_1786348932@example.com",
+      "passwordHash": "$2b$10$qEOXKM1OKP6qSCjIP2e3RuJX34HJr9IbvYQmhzDz8Rq50ed7CAs5W",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:02:13.364Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_c9ff362aa466bb86",
+      "email": "student_p4_1786349001@example.com",
+      "passwordHash": "$2b$10$X5nO/beBM1XrOI1sOtl1MOlHvXvk9nuhsYgNjkXGi5QJuJm87anr.",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:03:22.044Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_491a593f8fd03e98",
+      "email": "company_a_p4_1786349001@example.com",
+      "passwordHash": "$2b$10$of9l1e54OMDaNPHP36NiXu2csduRg/LXW6x1ICJ83tz3.rKz6gm2e",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_491a593f8fd03e98",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:03:22.139Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_7b01be9487a4c727",
+      "email": "company_b_p4_1786349001@example.com",
+      "passwordHash": "$2b$10$GnFKpTam19/Lan0sIyH7nuifrYxu70Kp2rmPm4HiaD1AUTl9VEFX2",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_7b01be9487a4c727",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:03:22.242Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_19eb18bf703f3c4a",
+      "email": "admin_p4_1786349001@example.com",
+      "passwordHash": "$2b$10$ugFNJUfsdVMjZEgH0KhS2.xE8lVnNFQBnuxthf5nOvlJtVsxg0/9a",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:03:22.335Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_e5fc7ac2d509c002",
+      "email": "student_p4_1786349047@example.com",
+      "passwordHash": "$2b$10$I3KSGzhGyKKG11In7vaFeOWBFf4lllTwr0bBuD1Lw2VaOWT06rc8q",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:04:07.413Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_9afb7e03da0e7cba",
+      "email": "company_a_p4_1786349047@example.com",
+      "passwordHash": "$2b$10$G7W2Pjgj7uGH5CMQ1N6T9O2urYImS7pX6XKhzEIZKDY6Zk4nx7iay",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_9afb7e03da0e7cba",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:04:07.518Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_080e853e64b98c99",
+      "email": "company_b_p4_1786349047@example.com",
+      "passwordHash": "$2b$10$neQK0OLycODGpP1OV4n1TehuMquYg2O5Br0bGeHwiUCsWq5NGBmqS",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_080e853e64b98c99",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:04:07.625Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_bc94de7953854d5e",
+      "email": "admin_p4_1786349047@example.com",
+      "passwordHash": "$2b$10$ZVb/S3Q6k0e9SBAX.IN4zuOT3ZyI5aGrRHB1fmhe18Gpg9FlDfF3u",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:04:07.734Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_8e11d5bec4742edb",
+      "email": "student_p4_1786349204@example.com",
+      "passwordHash": "$2b$10$aahNolyX/kM8ayn/PoFGK.jLAD85MA.tLL78gsg2FYQNmVlYJmXb6",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:06:44.954Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_b8dbe84303bb5d92",
+      "email": "company_a_p4_1786349204@example.com",
+      "passwordHash": "$2b$10$p5RbUEfOHYP4TE4Ebn/aTu4D3AFCuJvu5H2UXdAlcogJrNP21yBIO",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_b8dbe84303bb5d92",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:06:45.054Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_dd8f8a2708d0543c",
+      "email": "company_b_p4_1786349204@example.com",
+      "passwordHash": "$2b$10$ehGWqyRMFbdDSasVtXxfGe3pF8mno7d8k9zCri0pY1gdBSbHs9F1u",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_dd8f8a2708d0543c",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:06:45.148Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_341c47cd4e2df717",
+      "email": "admin_p4_1786349204@example.com",
+      "passwordHash": "$2b$10$dh/xBM3gPrXnJ/ndrPnC5OMU41dDoLjOgdSB3YVuF0MrhxZAktO36",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:06:45.243Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_e2c8628df243cfe3",
+      "email": "comp_a@techcorp.com",
+      "passwordHash": "$2b$10$iLHnUwNS5okNij0yRl5bIO9u/3YrB2GIicQfjUEBzLusKKFeNcco2",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Comp_a",
+      "lastName": "Test",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "createdAt": "2026-08-10T08:52:13.716Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_6082e096a74da1b9",
+      "email": "comp_b@rival.com",
+      "passwordHash": "$2b$10$V0XVTwA6e5vhPLOygD7uOOCZ8g9X/b8jOPkT1gcBZr5s8m9iHbbxy",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Comp_b",
+      "lastName": "Test",
+      "companyId": "usr_6082e096a74da1b9",
+      "companyName": "Comp_b's Company",
+      "createdAt": "2026-08-10T08:52:13.809Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_c6de9dae083c23ff",
+      "email": "stud_a@university.edu",
+      "passwordHash": "$2b$10$SxlFUmnvSd3d6mo7lo9kS.9XWNssl8AfYLNuca4fuNC6FXkjwLOn.",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Stud_a",
+      "lastName": "Test",
+      "createdAt": "2026-08-10T08:52:13.913Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_9a780c2498009116",
+      "email": "stud_b@university.edu",
+      "passwordHash": "$2b$10$J9ka2OKGNnVqQYKMpbZnJex3iyf2tw/CUEQY0IWK3W5FDVnXREzUO",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Stud_b",
+      "lastName": "Test",
+      "createdAt": "2026-08-10T08:52:14.006Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_5ffc1939919be0e9",
+      "email": "stud_c@university.edu",
+      "passwordHash": "$2b$10$92Tg/FVIusxg1MUSZO8Q3usoN4m3DBuh0kyfDQ2oRASfPKiXfBRRG",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Stud_c",
+      "lastName": "Test",
+      "createdAt": "2026-08-10T08:52:14.134Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_3811f79e57f86104",
+      "email": "student_p4_1786351936@example.com",
+      "passwordHash": "$2b$10$qyuUQrgRM2Fhcxe0h5McdOitGY8g1sJOkOazbPVPjYh/QdyPDW3.S",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:52:16.535Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_689e5deb4b2a7437",
+      "email": "company_a_p4_1786351936@example.com",
+      "passwordHash": "$2b$10$fQevnBobkaPZnYMSyn5Od.4b.UJUjyKfckODgSqtXcgWfqpSd6ni.",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_689e5deb4b2a7437",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:52:16.630Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_0f735554f29ea782",
+      "email": "company_b_p4_1786351936@example.com",
+      "passwordHash": "$2b$10$xSDzWNEteViKPsCXsCVgvO/hnvhD3lUS/6WJH1PFzdSmn9Pqf.mp.",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_0f735554f29ea782",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:52:16.722Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_df3ed0b57dc627e1",
+      "email": "admin_p4_1786351936@example.com",
+      "passwordHash": "$2b$10$B0nETUdV/0gtYiuj0wKh2.s7Yq3JZzYoAC1eaJ7uBINKBzvugSLAC",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:52:16.813Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_9d5cd31521e8654b",
+      "email": "student_p4_1786352230@example.com",
+      "passwordHash": "$2b$10$hxbULzlxOzNmevbjWFKiKugvUagPEcEncRfO50WepHPQ8wFh19ykq",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alice",
+      "lastName": "Student",
+      "createdAt": "2026-08-10T08:57:10.225Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_4b56c07609855016",
+      "email": "company_a_p4_1786352230@example.com",
+      "passwordHash": "$2b$10$AiyTDsJZBnRRHTO/w6YH3.4k6CoAKN9sDpbfOGgVpCVEgEyf35e1e",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Acme",
+      "lastName": "Corp",
+      "companyId": "usr_4b56c07609855016",
+      "companyName": "Acme's Company",
+      "createdAt": "2026-08-10T08:57:10.315Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_7926fdbc4c6419b3",
+      "email": "company_b_p4_1786352230@example.com",
+      "passwordHash": "$2b$10$h.GRdDd6ZM3z8HeLL45wLuuYhQOUDAabDg485WwWunqmrtHxjYEOm",
+      "role": "COMPANY",
+      "status": "ACTIVE",
+      "firstName": "Beta",
+      "lastName": "Inc",
+      "companyId": "usr_7926fdbc4c6419b3",
+      "companyName": "Beta's Company",
+      "createdAt": "2026-08-10T08:57:10.406Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_787210378a7d84a9",
+      "email": "admin_p4_1786352230@example.com",
+      "passwordHash": "$2b$10$iHzkVOFG2Db9nVKIzSu2heMu0EDAAxyheqT4fbgazXtakf24pW/iS",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "firstName": "Admin",
+      "lastName": "User",
+      "createdAt": "2026-08-10T08:57:10.496Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_3caabbfce0ab2cd9",
+      "email": "maheshpatil18182424@gmail.com",
+      "passwordHash": "$2b$10$71QCkTj6JEh/eXyxc5rjTOROzArqPqMTHn1w4WG3ZMNkTMjk/75Gq",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Mahesh",
+      "lastName": "Patil",
+      "institutionId": "INST-9021",
+      "department": "Computer Science",
+      "rollNumber": "",
+      "batch": "2026",
+      "createdAt": "2026-08-12T15:51:13.389Z",
+      "bookmarks": [],
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Go",
+        "R",
+        "React",
+        "MongoDB"
+      ],
+      "resumeUrl": "resume.pdf",
+      "preferredRole": "Backend Developer",
+      "gpa": 3.76
+    },
+    {
+      "id": "usr_tpo_001",
+      "email": "tpo@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "TPO",
+      "status": "ACTIVE",
+      "firstName": "Mahesh",
+      "lastName": "Patil",
+      "department": "Training & Placement Office",
+      "institutionId": "INST-2026",
+      "createdAt": "2026-08-16T11:06:23.848Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_student_002",
+      "email": "rahul@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Rahul",
+      "lastName": "Sharma",
+      "department": "Information Technology",
+      "institutionId": "INST-2026",
+      "rollNumber": "IT-2026-042",
+      "batch": "2026",
+      "gpa": 3.5,
+      "skills": [
+        "Python",
+        "Django",
+        "React",
+        "Git"
+      ],
+      "createdAt": "2026-08-16T11:06:23.848Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_student_003",
+      "email": "priya@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Priya",
+      "lastName": "Patel",
+      "department": "Electronics & Telecom",
+      "institutionId": "INST-2026",
+      "rollNumber": "ETC-2026-015",
+      "batch": "2026",
+      "gpa": 2.7,
+      "skills": [
+        "C++",
+        "Embedded Systems"
+      ],
+      "createdAt": "2026-08-16T11:06:23.848Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_student_004",
+      "email": "amit@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Amit",
+      "lastName": "Verma",
+      "department": "Data Science",
+      "institutionId": "INST-2026",
+      "rollNumber": "DS-2026-008",
+      "batch": "2026",
+      "gpa": 3.9,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "Pandas",
+        "PyTorch"
+      ],
+      "createdAt": "2026-08-16T11:06:23.848Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_76bd4f7ec1150732",
+      "email": "test_student_1786878390@university.edu",
+      "passwordHash": "$2b$10$qDm9rQ8vIiyYtUEbDOJAD.QniLiZmPqaFBpOaxYks.FSHL.5.zZxe",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alex",
+      "lastName": "Kumar",
+      "phone": "+1 555-0199",
+      "institutionId": "State Institute of Technology",
+      "collegeName": "State Institute of Technology",
+      "department": "Computer Science",
+      "rollNumber": "CS-2026-390",
+      "prn": "PRN1786878390",
+      "batch": "2026",
+      "gpa": 3.5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Java",
+        "SQL",
+        "Git"
+      ],
+      "createdAt": "2026-08-16T11:06:30.390Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_85c2ebf1656fb345",
+      "email": "test_student_1786878425@university.edu",
+      "passwordHash": "$2b$10$9cdl0s.MbDF8/sGOp9rhfuh/DN90udTgfZzjdo0fVxy/o9QHDInQ6",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alex",
+      "lastName": "Kumar",
+      "phone": "+1 555-0199",
+      "institutionId": "State Institute of Technology",
+      "collegeName": "State Institute of Technology",
+      "department": "Computer Science",
+      "rollNumber": "CS-2026-425",
+      "prn": "PRN1786878425",
+      "batch": "2026",
+      "gpa": 3.5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Java",
+        "SQL",
+        "Git"
+      ],
+      "createdAt": "2026-08-16T11:07:05.373Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_38e895c33a2fef78",
+      "email": "test_student_1786878638@university.edu",
+      "passwordHash": "$2b$10$4ktrk4izDV0DFgpWfztzjetjVqJA4QAI4jyfH7wEIKJV3clS5w/4S",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alex",
+      "lastName": "Kumar",
+      "phone": "+1 555-0199",
+      "institutionId": "State Institute of Technology",
+      "collegeName": "State Institute of Technology",
+      "department": "Computer Science",
+      "rollNumber": "CS-2026-638",
+      "prn": "PRN1786878638",
+      "batch": "2026",
+      "gpa": 3.5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Java",
+        "SQL",
+        "Git"
+      ],
+      "createdAt": "2026-08-16T11:10:38.540Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_0ce448caa9fe830f",
+      "email": "daksh@gmail.com",
+      "passwordHash": "$2b$10$jpNYuNWNMcadlP.Y.mvFcuwljW7pyiISu3QBexvMd.3eAntTVRwNG",
+      "role": "TPO",
+      "status": "ACTIVE",
+      "firstName": "Daksh",
+      "lastName": "Jain",
+      "phone": "9665696709",
+      "collegeName": "College of Engineering & Technology",
+      "batch": "2026",
+      "skills": [],
+      "createdAt": "2026-08-16T13:28:39.690Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_22e832fac12e79e0",
+      "email": "test_student_1786985306@university.edu",
+      "passwordHash": "$2b$10$/Y3zj3KRgwExxpuIgMvA5.X2k4mSNToLKG6XMjd.vqXECSJvf0J4W",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Alex",
+      "lastName": "Kumar",
+      "phone": "+1 555-0199",
+      "institutionId": "State Institute of Technology",
+      "collegeName": "State Institute of Technology",
+      "department": "Computer Science",
+      "rollNumber": "CS-2026-306",
+      "prn": "PRN1786985306",
+      "batch": "2026",
+      "gpa": 3.5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Java",
+        "SQL",
+        "Git"
+      ],
+      "createdAt": "2026-08-17T16:48:28.997Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_b671e9fb90bd1a32",
+      "email": "tanishabadgujar1604@gmail.com",
+      "passwordHash": "$2b$10$qIJM.HzM/Kvojy9ui6Hdne2BYfEGMlmbC9IGCcRf.hZ4EDjJEXaVG",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Tanisha",
+      "lastName": "badgujar",
+      "phone": "+917823815655",
+      "institutionId": "INST-9021",
+      "collegeName": "MIT Academy of Engineering",
+      "department": "Computer Science",
+      "rollNumber": "26",
+      "prn": "231107027",
+      "batch": "2026",
+      "gpa": 3.5,
+      "skills": [
+        "React",
+        "TypeScript",
+        "Java",
+        "SQL",
+        "Git"
+      ],
+      "createdAt": "2026-08-18T11:39:52.141Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    },
+    {
+      "id": "usr_mentor_001",
+      "email": "mentor@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "FACULTY_MENTOR",
+      "status": "ACTIVE",
+      "firstName": "Dr. Sneha",
+      "lastName": "Kulkarni",
+      "department": "Computer Science",
+      "institutionId": "INST-2026",
+      "phone": "+91 98765 43210",
+      "bio": "Associate Professor, Department of Computer Science. Faculty mentor for internship students.",
+      "designation": "Associate Professor",
+      "employeeId": "FAC-CS-003",
+      "maxCapacity": 10,
+      "createdAt": "2026-08-20T16:09:14.028Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_mentor_002",
+      "email": "rahul.mentor@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "FACULTY_MENTOR",
+      "status": "ACTIVE",
+      "firstName": "Dr. Rahul",
+      "lastName": "Sharma",
+      "department": "Computer Science",
+      "institutionId": "INST-2026",
+      "phone": "+91 98765 11111",
+      "bio": "Assistant Professor, Computer Science. Specializes in AI and ML.",
+      "designation": "Assistant Professor",
+      "employeeId": "FAC-CS-001",
+      "maxCapacity": 10,
+      "createdAt": "2026-08-20T19:03:12.791Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_mentor_003",
+      "email": "meera.mentor@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "FACULTY_MENTOR",
+      "status": "ACTIVE",
+      "firstName": "Dr. Meera",
+      "lastName": "Joshi",
+      "department": "Information Technology",
+      "institutionId": "INST-2026",
+      "phone": "+91 98765 22222",
+      "bio": "Associate Professor, Information Technology. Expert in cloud computing and DevOps.",
+      "designation": "Associate Professor",
+      "employeeId": "FAC-IT-002",
+      "maxCapacity": 8,
+      "createdAt": "2026-08-20T19:03:12.791Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_mentor_cd6e82ad4bb4",
+      "email": "sahil@gmail.com",
+      "passwordHash": "$2b$10$3RECLrbCtWA2wsMC2VQc7eNcNilom2d1XfAFtNjSou2Oo4Np5Qzw.",
+      "role": "FACULTY_MENTOR",
+      "status": "ACTIVE",
+      "firstName": "Sahil",
+      "lastName": "Pathan",
+      "maxCapacity": 10,
+      "institutionId": "INST-2026",
+      "createdAt": "2026-08-20T19:08:29.651Z",
+      "bookmarks": []
+    },
+    {
+      "id": "usr_student_005",
+      "email": "mahesh.patil@university.edu",
+      "passwordHash": "$2b$10$Swsr0YQMtRlj4mcBeR3UbuT3cbl5wpcI4DZ92/0ToK0WJQyqEdeny",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "firstName": "Mahesh",
+      "lastName": "Patil",
+      "department": "AI & ML",
+      "institutionId": "INST-2026",
+      "rollNumber": "23AIML001",
+      "batch": "2026",
+      "gpa": 3.75,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "TensorFlow",
+        "React"
+      ],
+      "createdAt": "2026-08-20T19:20:43.281Z",
+      "bookmarks": [],
+      "preferredRole": "Backend Developer"
+    }
+  ],
+  "internships": [
+    {
+      "id": "int_001",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "title": "Fullstack Software Engineering Intern",
+      "description": "Join TechCorp for a 6-month hands-on internship in React, TypeScript, and Spring Boot API development.",
+      "requirements": [
+        "Knowledge of JS/TS",
+        "Understanding of REST APIs"
+      ],
+      "responsibilities": [
+        "Build modern user interfaces",
+        "Collaborate with backend teams"
+      ],
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Java"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "HYBRID",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 4500,
+      "stipendOrSalaryMax": 6000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 3,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T07:59:19.106Z",
+      "updatedAt": "2026-08-10T07:59:19.106Z",
+      "applicantCount": 3
+    },
+    {
+      "id": "int_93507593ef6dedce",
+      "companyId": "usr_5b4d2621c7588973",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T07:59:24.565Z",
+      "updatedAt": "2026-08-10T07:59:24.612Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_2c658e458a71398b",
+      "companyId": "usr_5b4d2621c7588973",
+      "companyName": "Acme's Company",
+      "title": "Dev",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T07:59:24.570Z",
+      "updatedAt": "2026-08-10T07:59:24.570Z"
+    },
+    {
+      "id": "int_870690c80b715294",
+      "companyId": "usr_5b4d2621c7588973",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T07:59:24.633Z",
+      "updatedAt": "2026-08-10T07:59:24.633Z"
+    },
+    {
+      "id": "int_d149796c2cb8f84c",
+      "companyId": "usr_5b4d2621c7588973",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T07:59:24.639Z",
+      "updatedAt": "2026-08-10T07:59:24.639Z"
+    },
+    {
+      "id": "int_6405540d3fe48560",
+      "companyId": "usr_2ec6018dcff851f7",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:00:15.085Z",
+      "updatedAt": "2026-08-10T08:00:15.119Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_4c32ddbad8c9818a",
+      "companyId": "usr_2ec6018dcff851f7",
+      "companyName": "Acme's Company",
+      "title": "Dev",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:00:15.090Z",
+      "updatedAt": "2026-08-10T08:00:15.090Z"
+    },
+    {
+      "id": "int_3f8233d683eb99ad",
+      "companyId": "usr_2ec6018dcff851f7",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:00:15.159Z",
+      "updatedAt": "2026-08-10T08:00:15.159Z"
+    },
+    {
+      "id": "int_94b64e9c3f751349",
+      "companyId": "usr_2ec6018dcff851f7",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:00:15.166Z",
+      "updatedAt": "2026-08-10T08:00:15.166Z"
+    },
+    {
+      "id": "int_3cde2f9e0592c8cf",
+      "companyId": "usr_7c2c545bc4031b9c",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:02:13.372Z",
+      "updatedAt": "2026-08-10T08:02:13.406Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_ed933857ac641b60",
+      "companyId": "usr_7c2c545bc4031b9c",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:02:13.429Z",
+      "updatedAt": "2026-08-10T08:02:13.429Z"
+    },
+    {
+      "id": "int_93bd5f28368be327",
+      "companyId": "usr_7c2c545bc4031b9c",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:02:13.435Z",
+      "updatedAt": "2026-08-10T08:02:13.435Z"
+    },
+    {
+      "id": "int_228e6b9fb42a2b37",
+      "companyId": "usr_491a593f8fd03e98",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:03:22.341Z",
+      "updatedAt": "2026-08-10T08:03:22.367Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_5a9bcace68af5ef5",
+      "companyId": "usr_491a593f8fd03e98",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:03:22.386Z",
+      "updatedAt": "2026-08-10T08:03:22.386Z"
+    },
+    {
+      "id": "int_7c7b79d809a45392",
+      "companyId": "usr_491a593f8fd03e98",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:03:22.392Z",
+      "updatedAt": "2026-08-10T08:03:22.392Z"
+    },
+    {
+      "id": "int_6c2019b3a7abdab5",
+      "companyId": "usr_9afb7e03da0e7cba",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:04:07.739Z",
+      "updatedAt": "2026-08-10T08:04:07.765Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_d80703b2e0ff0497",
+      "companyId": "usr_9afb7e03da0e7cba",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:04:07.783Z",
+      "updatedAt": "2026-08-10T08:04:07.783Z"
+    },
+    {
+      "id": "int_891c4d813a7ea171",
+      "companyId": "usr_9afb7e03da0e7cba",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:04:07.789Z",
+      "updatedAt": "2026-08-10T08:04:07.789Z"
+    },
+    {
+      "id": "int_4c4ddc0e5db31898",
+      "companyId": "usr_b8dbe84303bb5d92",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:06:45.250Z",
+      "updatedAt": "2026-08-10T08:06:45.284Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_94d1ad95ebf6e29b",
+      "companyId": "usr_b8dbe84303bb5d92",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:06:45.305Z",
+      "updatedAt": "2026-08-10T08:06:45.305Z"
+    },
+    {
+      "id": "int_2a0d65ca4de10190",
+      "companyId": "usr_b8dbe84303bb5d92",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:06:45.311Z",
+      "updatedAt": "2026-08-10T08:06:45.311Z"
+    },
+    {
+      "id": "int_7b9c64952e0fdf63",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "title": "Senior Frontend Intern",
+      "description": "Build high-performance React user interfaces for cloud products.",
+      "requirements": [
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "React",
+        "TypeScript"
+      ],
+      "location": "Remote",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 5,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:52:14.012Z",
+      "updatedAt": "2026-08-10T08:52:14.012Z",
+      "applicantCount": 4
+    },
+    {
+      "id": "int_7d7aa3fb6727779e",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "title": "Draft Backend Intern",
+      "description": "Work on internal backend tools.",
+      "requirements": [
+        "Java",
+        "MongoDB"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "Java"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "ON_SITE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "currency": "USD",
+      "isPaid": false,
+      "positionsAvailable": 1,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:52:14.014Z",
+      "updatedAt": "2026-08-10T08:52:14.014Z"
+    },
+    {
+      "id": "int_abf47566d67e4516",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "title": "Expired Internship Posting",
+      "description": "This internship deadline has already passed.",
+      "requirements": [
+        "Java"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "Java"
+      ],
+      "location": "Boston, MA",
+      "workplaceType": "ON_SITE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 1,
+      "applicationDeadline": "2020-01-01T00:00:00.000Z",
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:52:14.016Z",
+      "updatedAt": "2026-08-10T08:52:14.016Z"
+    },
+    {
+      "id": "int_f6ff967906486738",
+      "companyId": "usr_689e5deb4b2a7437",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:52:16.819Z",
+      "updatedAt": "2026-08-10T08:52:16.848Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_8fcce5d3fcaf8a2b",
+      "companyId": "usr_689e5deb4b2a7437",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:52:16.868Z",
+      "updatedAt": "2026-08-10T08:52:16.868Z"
+    },
+    {
+      "id": "int_d14c69e3ad405d62",
+      "companyId": "usr_689e5deb4b2a7437",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:52:16.874Z",
+      "updatedAt": "2026-08-10T08:52:16.874Z"
+    },
+    {
+      "id": "int_875a5e83816a1a73",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "title": "Senior Frontend Intern",
+      "description": "Build high-performance React user interfaces for cloud products.",
+      "requirements": [
+        "React",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "React",
+        "TypeScript"
+      ],
+      "location": "Remote",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 5,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:56:59.317Z",
+      "updatedAt": "2026-08-10T08:56:59.317Z",
+      "applicantCount": 3
+    },
+    {
+      "id": "int_60cde56a2252aebe",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "title": "Draft Backend Intern",
+      "description": "Work on internal backend tools.",
+      "requirements": [
+        "Java",
+        "MongoDB"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "Java"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "ON_SITE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "currency": "USD",
+      "isPaid": false,
+      "positionsAvailable": 1,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:56:59.320Z",
+      "updatedAt": "2026-08-10T08:56:59.320Z"
+    },
+    {
+      "id": "int_4990ded7e0488001",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "title": "Expired Internship Posting",
+      "description": "This internship deadline has already passed.",
+      "requirements": [
+        "Java"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "Java"
+      ],
+      "location": "Boston, MA",
+      "workplaceType": "ON_SITE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 1,
+      "applicationDeadline": "2020-01-01T00:00:00.000Z",
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:56:59.322Z",
+      "updatedAt": "2026-08-10T08:56:59.322Z"
+    },
+    {
+      "id": "int_e84e2a38165e03cc",
+      "companyId": "usr_4b56c07609855016",
+      "companyName": "Acme's Company",
+      "title": "Senior Frontend Engineering Intern",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "CLOSED",
+      "createdAt": "2026-08-10T08:57:10.501Z",
+      "updatedAt": "2026-08-10T08:57:10.530Z",
+      "publishImmediately": false
+    },
+    {
+      "id": "int_edf5273b1fb82b63",
+      "companyId": "usr_4b56c07609855016",
+      "companyName": "Acme's Company",
+      "title": "Fullstack Developer React Spring",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-10T08:57:10.551Z",
+      "updatedAt": "2026-08-10T08:57:10.551Z"
+    },
+    {
+      "id": "int_fe08037d1e16c288",
+      "companyId": "usr_4b56c07609855016",
+      "companyName": "Acme's Company",
+      "title": "Hidden Draft Internship Posting",
+      "description": "Awesome internship position for fullstack React and Spring Boot development.",
+      "requirements": [
+        "Proficient in Java and TypeScript",
+        "Understanding of MongoDB"
+      ],
+      "responsibilities": [
+        "Develop REST APIs",
+        "Build clean UI components"
+      ],
+      "requiredSkills": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "location": "San Francisco, CA",
+      "workplaceType": "REMOTE",
+      "employmentType": "INTERNSHIP",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 3000,
+      "stipendOrSalaryMax": 5000,
+      "currency": "USD",
+      "isPaid": true,
+      "positionsAvailable": 2,
+      "status": "DRAFT",
+      "createdAt": "2026-08-10T08:57:10.557Z",
+      "updatedAt": "2026-08-10T08:57:10.557Z"
+    },
+    {
+      "id": "int_710637515a4468a3",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "title": "Hardware Engineer",
+      "description": "Urget need of Employee",
+      "requirements": [
+        "BE /Btech (Mechanical)"
+      ],
+      "responsibilities": [],
+      "requiredSkills": [
+        "AutoCad"
+      ],
+      "location": "Delhi",
+      "workplaceType": "HYBRID",
+      "employmentType": "FULL_TIME",
+      "experienceLevel": "ENTRY_LEVEL",
+      "stipendOrSalaryMin": 600000,
+      "stipendOrSalaryMax": 900000,
+      "currency": "INR",
+      "isPaid": true,
+      "positionsAvailable": 4,
+      "applicationDeadline": "2026-08-22T00:00:00.000Z",
+      "status": "PUBLISHED",
+      "createdAt": "2026-08-16T14:07:45.526Z",
+      "updatedAt": "2026-08-16T14:07:45.526Z",
+      "applicantCount": 1
+    }
+  ],
+  "refreshTokens": [
+    {
+      "id": "rt_db7dfbd9e3b9f99b",
+      "userId": "usr_fa29c900c0187021",
+      "token": "7025b1e35df3b608c2f98b2abfce5729ac9ab385bd78bb87e2248f6ca09b3e37",
+      "expiryDate": "2026-08-17T07:59:24.266Z"
+    },
+    {
+      "id": "rt_4357ba4ade83be84",
+      "userId": "usr_5b4d2621c7588973",
+      "token": "0130620a6ce6c37daada3e64afa65f231bc8b5fc8c1bbb0cb5e04c738ae7ea5d",
+      "expiryDate": "2026-08-17T07:59:24.365Z"
+    },
+    {
+      "id": "rt_febaf27d0ff49fce",
+      "userId": "usr_4658c648f401eaf5",
+      "token": "3eff328896773eafdb25d5b84f8bd127d3a99d4e4c60045ac5595a45d57d1d68",
+      "expiryDate": "2026-08-17T07:59:24.462Z"
+    },
+    {
+      "id": "rt_aa836b073076c121",
+      "userId": "usr_fa66131287c9e110",
+      "token": "e972c11af6c297ede75fc650593edde0d258015a6ffa14eb271861913bd491fc",
+      "expiryDate": "2026-08-17T07:59:24.557Z"
+    },
+    {
+      "id": "rt_934977ba852820df",
+      "userId": "usr_b14672bde7c15ab9",
+      "token": "d7036d9c4f588bed39ea77b15c11476ded32e86c1e1300c8e6148262be14a2d8",
+      "expiryDate": "2026-08-17T08:00:14.790Z"
+    },
+    {
+      "id": "rt_0b4753e235102d9f",
+      "userId": "usr_2ec6018dcff851f7",
+      "token": "196474ef1b93d8aeeae281cbff470b6670e036ae1e657da885ea86ceeeeda80b",
+      "expiryDate": "2026-08-17T08:00:14.886Z"
+    },
+    {
+      "id": "rt_7fe6f2d820384d74",
+      "userId": "usr_7a05cf9e1c7e8e45",
+      "token": "ce2e495f64b6a9bbcd36e6cad0c385b3b3770d9a7750bbcf02b5f88b1bee80f3",
+      "expiryDate": "2026-08-17T08:00:14.983Z"
+    },
+    {
+      "id": "rt_ec1010d7588db8c2",
+      "userId": "usr_07591a1bc6b210c8",
+      "token": "706c89fb14e7cc20d68ab6fb466e990ca06a660d09ec7901b9f450a918e307c8",
+      "expiryDate": "2026-08-17T08:00:15.080Z"
+    },
+    {
+      "id": "rt_ef8658dfae71335c",
+      "userId": "usr_adcc4eb31799f55e",
+      "token": "6b1b089b675f877ce6a459d19d80a9fa6879533a9e53d83fc88089b6c9647e18",
+      "expiryDate": "2026-08-17T08:02:13.076Z"
+    },
+    {
+      "id": "rt_656cd00b00e68149",
+      "userId": "usr_7c2c545bc4031b9c",
+      "token": "a28efa0c4b25dd29d7c7f6a826c9350475727f81f6218750b091a9e37809055b",
+      "expiryDate": "2026-08-17T08:02:13.175Z"
+    },
+    {
+      "id": "rt_ead1d1d7dd2dbbf2",
+      "userId": "usr_ce6155d949a48583",
+      "token": "fb7d97f67cf647ef45906b84af16b3bd182bc229ccf6ecf6c5b5123501f46cad",
+      "expiryDate": "2026-08-17T08:02:13.270Z"
+    },
+    {
+      "id": "rt_e59e36af4076daec",
+      "userId": "usr_19dd1fff76a0a442",
+      "token": "be4c769f48eace37d40f7019de80f1f56a286410e6cf9006aee16e38e93d7119",
+      "expiryDate": "2026-08-17T08:02:13.365Z"
+    },
+    {
+      "id": "rt_c926a322749d0cea",
+      "userId": "usr_c9ff362aa466bb86",
+      "token": "9c706fc6dc0c9b44f0cfc1508104a5204a86ca02fc2180e8d1b08f6c163a2e6a",
+      "expiryDate": "2026-08-17T08:03:22.045Z"
+    },
+    {
+      "id": "rt_dca7efa6173e0cb5",
+      "userId": "usr_491a593f8fd03e98",
+      "token": "7dbef8fb109847009040414c6f5a93f229831813c23f5e7c08986a6737419b02",
+      "expiryDate": "2026-08-17T08:03:22.140Z"
+    },
+    {
+      "id": "rt_5a13826156c62472",
+      "userId": "usr_7b01be9487a4c727",
+      "token": "5396c1a34dff441fb2c517e4d5ab9f347c0c873643feb84205848334b724cdcd",
+      "expiryDate": "2026-08-17T08:03:22.243Z"
+    },
+    {
+      "id": "rt_e73c2511db2663a9",
+      "userId": "usr_19eb18bf703f3c4a",
+      "token": "7177b2a64a974cd38bcf9843b1fc992a1b3f70611be770c7e0787965a885a66b",
+      "expiryDate": "2026-08-17T08:03:22.336Z"
+    },
+    {
+      "id": "rt_141b3a180882458b",
+      "userId": "usr_e5fc7ac2d509c002",
+      "token": "0f98011208fd7bd28c156214b5813910c057f8da7a372d9f264bc1119f9e877d",
+      "expiryDate": "2026-08-17T08:04:07.414Z"
+    },
+    {
+      "id": "rt_e5e907bfadb0399d",
+      "userId": "usr_9afb7e03da0e7cba",
+      "token": "54d4c16b46d96d0bcf2adfe4b2b430429d5d9040030a80dc67b2619b5ef89674",
+      "expiryDate": "2026-08-17T08:04:07.519Z"
+    },
+    {
+      "id": "rt_1e135a7abbe41dda",
+      "userId": "usr_080e853e64b98c99",
+      "token": "8f865961da43d43ceda0aebb90e066eb24dda0ffd1a757d6c68af5d9b7f6ae06",
+      "expiryDate": "2026-08-17T08:04:07.625Z"
+    },
+    {
+      "id": "rt_69ee3d652446c8c7",
+      "userId": "usr_bc94de7953854d5e",
+      "token": "a6cb444bc4afc572814091ddc441b7fa77b0317949b927836e629eda416564b4",
+      "expiryDate": "2026-08-17T08:04:07.734Z"
+    },
+    {
+      "id": "rt_78af5c5901a646f6",
+      "userId": "usr_8e11d5bec4742edb",
+      "token": "8d8243a6bd3b1f12e463ac5749ebc2044bb43271e56ca63474ed2757321ec127",
+      "expiryDate": "2026-08-17T08:06:44.957Z"
+    },
+    {
+      "id": "rt_bc396faca577665f",
+      "userId": "usr_b8dbe84303bb5d92",
+      "token": "239229bff1d9f6a6bb5fd0a32116cbcf805c3b93b32131957a1698cb63dad170",
+      "expiryDate": "2026-08-17T08:06:45.054Z"
+    },
+    {
+      "id": "rt_c3fbbefdf0cef21f",
+      "userId": "usr_dd8f8a2708d0543c",
+      "token": "00b48e85888904aec5bbae253ae91f0ed7033fe57c1005e34d47c0841f6e23cf",
+      "expiryDate": "2026-08-17T08:06:45.149Z"
+    },
+    {
+      "id": "rt_0e068b4b81ddb528",
+      "userId": "usr_341c47cd4e2df717",
+      "token": "7e4d3383887f1aa8c5ba2d1206a8efef8b0fc9815194e0b4575005ad7e091ab2",
+      "expiryDate": "2026-08-17T08:06:45.244Z"
+    },
+    {
+      "id": "rt_4349f67c78ee75cd",
+      "userId": "usr_3811f79e57f86104",
+      "token": "58680fd0803081b8d5d911e9bb5d3deeb54b6361226d2750f5797a0f1e6c349c",
+      "expiryDate": "2026-08-17T08:52:16.535Z"
+    },
+    {
+      "id": "rt_122d8a6d0482d473",
+      "userId": "usr_689e5deb4b2a7437",
+      "token": "da892b6f1bd04a651f60c8b79245a5cb46e4248c64aab02e861c0c03560cc8f5",
+      "expiryDate": "2026-08-17T08:52:16.631Z"
+    },
+    {
+      "id": "rt_61bfa2d31aa8711c",
+      "userId": "usr_0f735554f29ea782",
+      "token": "b60d026b613a7fa4daf081ced08072c3d6a3d3693c26f3d19d7580313972e332",
+      "expiryDate": "2026-08-17T08:52:16.722Z"
+    },
+    {
+      "id": "rt_b8bc8e2ff373ebb2",
+      "userId": "usr_df3ed0b57dc627e1",
+      "token": "1ad0e6f2ae3237711e5743aca124f42ff9561da7161373c3b8de023fe18ebcef",
+      "expiryDate": "2026-08-17T08:52:16.814Z"
+    },
+    {
+      "id": "rt_31dc5b8669d5f639",
+      "userId": "usr_e2c8628df243cfe3",
+      "token": "11aeceea5170909e5b727c2a87b6fe6d6b744928c246895b6a19d181e35aceea",
+      "expiryDate": "2026-08-17T08:56:59.040Z"
+    },
+    {
+      "id": "rt_d0ba9464e693e730",
+      "userId": "usr_6082e096a74da1b9",
+      "token": "9b55b14ab0abc441287c1ac65f7516b47600ed3011a939e6acf7962f25d75651",
+      "expiryDate": "2026-08-17T08:56:59.131Z"
+    },
+    {
+      "id": "rt_7c8c23c5ca7f0fab",
+      "userId": "usr_c6de9dae083c23ff",
+      "token": "af54fa2257fff47b9d8934b48955986254467c95f9aa644060d6a27c56c9d6e4",
+      "expiryDate": "2026-08-17T08:56:59.225Z"
+    },
+    {
+      "id": "rt_de60d33d7a527b3e",
+      "userId": "usr_9a780c2498009116",
+      "token": "e4c948db5d134ddab9385d99b59e37e5f8a54ff255f095d9174d940058d1475f",
+      "expiryDate": "2026-08-17T08:56:59.314Z"
+    },
+    {
+      "id": "rt_3010f1a9c6e05f2b",
+      "userId": "usr_5ffc1939919be0e9",
+      "token": "aecfd936c0394a4d25933a81d068d20b4d1de9cfb26473c52cd68380a6bdb403",
+      "expiryDate": "2026-08-17T08:56:59.439Z"
+    },
+    {
+      "id": "rt_b5928721b61a6b55",
+      "userId": "usr_9d5cd31521e8654b",
+      "token": "a4f65be15827247f566f1e872876a876bf2d0e147bdd7de28bdbf63c5291338e",
+      "expiryDate": "2026-08-17T08:57:10.225Z"
+    },
+    {
+      "id": "rt_7f52d7ce90979bff",
+      "userId": "usr_4b56c07609855016",
+      "token": "99ee99504e0c818bbb22196ea3187cee2b005b86912b475282ac6614b1cd6d57",
+      "expiryDate": "2026-08-17T08:57:10.316Z"
+    },
+    {
+      "id": "rt_ec9a0d4575527c34",
+      "userId": "usr_7926fdbc4c6419b3",
+      "token": "8e66d367c328f005479c351758eafbbecfefa5c038e371a01294fc6fd997182d",
+      "expiryDate": "2026-08-17T08:57:10.406Z"
+    },
+    {
+      "id": "rt_26f3b8069fed3278",
+      "userId": "usr_787210378a7d84a9",
+      "token": "7f27b7dcbf5b8ba2f0f5fb01c546d0df15f6b2d50f97390820ee8ac2a5daf48a",
+      "expiryDate": "2026-08-17T08:57:10.497Z"
+    },
+    {
+      "id": "rt_4db7fb95e6bffae1",
+      "userId": "usr_admin_001",
+      "token": "dc5bd87324d48d8a7080b0bf64fbba3d99667786ddd389d6d079e598510c839a",
+      "expiryDate": "2026-08-19T17:22:04.278Z"
+    },
+    {
+      "id": "rt_ba85b156327fc354",
+      "userId": "usr_76bd4f7ec1150732",
+      "token": "3cf1b51fc150198fafb7f5ab4f9782899ae2a738e7bc61002ccaf160364ca4b8",
+      "expiryDate": "2026-08-23T11:06:30.390Z"
+    },
+    {
+      "id": "rt_ca2ad139506c91fb",
+      "userId": "usr_85c2ebf1656fb345",
+      "token": "44e5a5b92fe7888cbc77477740537ea9acf3d5fac985f29abf56c00d58790791",
+      "expiryDate": "2026-08-23T11:07:05.374Z"
+    },
+    {
+      "id": "rt_425faf37a3cd1a9c",
+      "userId": "usr_38e895c33a2fef78",
+      "token": "65459b206a80d6424ec8c6af981f101f18b29e1bc7af8cb91ae27280f4c8586c",
+      "expiryDate": "2026-08-23T11:10:38.541Z"
+    },
+    {
+      "id": "rt_8beda0a48ce7bdda",
+      "userId": "usr_0ce448caa9fe830f",
+      "token": "92957730d80425fdc126d71cef5c91ffc5f68cffef70eee8212fb8acdda4c78d",
+      "expiryDate": "2026-08-23T13:38:37.793Z"
+    },
+    {
+      "id": "rt_c4d4ba4a84aa8e54",
+      "userId": "usr_22e832fac12e79e0",
+      "token": "c9a7a48c4c071ea8d55a1a24d2129a4549dcff00ad83208994898f3b43a28aa1",
+      "expiryDate": "2026-08-24T16:48:28.998Z"
+    },
+    {
+      "id": "rt_d6c8f2e199c1ed57",
+      "userId": "usr_b671e9fb90bd1a32",
+      "token": "d09888d441f53f51afde247f57f106e2164feec734cbe5f3ebb64736e674440f",
+      "expiryDate": "2026-08-25T11:39:52.148Z"
+    },
+    {
+      "id": "rt_5a1939d914373419",
+      "userId": "usr_mentor_003",
+      "token": "e9b194480b6af28ed403c0cc3f3cab4d2fb9440039683d261788f8978bca13ec",
+      "expiryDate": "2026-08-27T20:15:40.131Z"
+    },
+    {
+      "id": "rt_c58a7dd9350f6e0c",
+      "userId": "usr_mentor_001",
+      "token": "ec82358ec2c714a6b6863b502af15b727ddf8903d3dd2c0ca51b72c011630419",
+      "expiryDate": "2026-08-27T20:30:41.281Z"
+    },
+    {
+      "id": "rt_8c1e276651d203a1",
+      "userId": "usr_student_005",
+      "token": "2134f15e0ea8d76b717862b09cb2d7cbc95ccbc4bdd586a2717cf356deface0c",
+      "expiryDate": "2026-08-27T20:30:41.310Z"
+    },
+    {
+      "id": "rt_09b3ca4992c0048b",
+      "userId": "usr_3caabbfce0ab2cd9",
+      "token": "1f3fc4a3e6362208add17c54c4f557022c466405312ab96a1e1c4892ce5df455",
+      "expiryDate": "2026-08-28T02:34:52.224Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app_4409d97dc7d2b886",
+      "internshipId": "int_7b9c64952e0fdf63",
+      "studentId": "usr_c6de9dae083c23ff",
+      "studentName": "Stud_a Test",
+      "studentEmail": "stud_a@university.edu",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "I am extremely passionate about building modern web software and would love to contribute to your team.",
+      "resumeUrl": "https://example.com/resumes/johndoe.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1-555-019-2831",
+      "university": "Stanford University",
+      "graduationYear": "2026",
+      "status": "UNDER_REVIEW",
+      "appliedAt": "2026-08-10T08:52:14.019Z",
+      "updatedAt": "2026-08-10T08:52:14.037Z",
+      "recruiterNotes": "Candidate profile matches requirements."
+    },
+    {
+      "id": "app_207c8ff762708bd4",
+      "internshipId": "int_7b9c64952e0fdf63",
+      "studentId": "usr_9a780c2498009116",
+      "studentName": "Stud_b Test",
+      "studentEmail": "stud_b@university.edu",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "I am extremely passionate about building modern web software and would love to contribute to your team.",
+      "resumeUrl": "https://example.com/resumes/johndoe.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1-555-019-2831",
+      "university": "Stanford University",
+      "graduationYear": "2026",
+      "status": "SUBMITTED",
+      "appliedAt": "2026-08-10T08:52:14.026Z",
+      "updatedAt": "2026-08-10T08:52:14.026Z",
+      "recruiterNotes": ""
+    },
+    {
+      "id": "app_cad4ad49d2682faf",
+      "internshipId": "int_7b9c64952e0fdf63",
+      "studentId": "usr_5ffc1939919be0e9",
+      "studentName": "Stud_c Test",
+      "studentEmail": "stud_c@university.edu",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "I am extremely passionate about building modern web software and would love to contribute to your team.",
+      "resumeUrl": "https://example.com/resumes/johndoe.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1-555-019-2831",
+      "university": "Stanford University",
+      "graduationYear": "2026",
+      "status": "WITHDRAWN",
+      "appliedAt": "2026-08-10T08:52:14.138Z",
+      "updatedAt": "2026-08-10T08:52:14.141Z",
+      "recruiterNotes": ""
+    },
+    {
+      "id": "app_0a6b07bb75dd3656",
+      "internshipId": "int_875a5e83816a1a73",
+      "studentId": "usr_c6de9dae083c23ff",
+      "studentName": "Stud_a Test",
+      "studentEmail": "stud_a@university.edu",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "I am extremely passionate about building modern web software and would love to contribute to your team.",
+      "resumeUrl": "https://example.com/resumes/johndoe.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1-555-019-2831",
+      "university": "Stanford University",
+      "graduationYear": "2026",
+      "status": "UNDER_REVIEW",
+      "appliedAt": "2026-08-10T08:56:59.324Z",
+      "updatedAt": "2026-08-10T08:56:59.339Z",
+      "recruiterNotes": "Candidate profile matches requirements."
+    },
+    {
+      "id": "app_af887009d48abdf9",
+      "internshipId": "int_875a5e83816a1a73",
+      "studentId": "usr_9a780c2498009116",
+      "studentName": "Stud_b Test",
+      "studentEmail": "stud_b@university.edu",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "I am extremely passionate about building modern web software and would love to contribute to your team.",
+      "resumeUrl": "https://example.com/resumes/johndoe.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1-555-019-2831",
+      "university": "Stanford University",
+      "graduationYear": "2026",
+      "status": "SUBMITTED",
+      "appliedAt": "2026-08-10T08:56:59.330Z",
+      "updatedAt": "2026-08-10T08:56:59.330Z",
+      "recruiterNotes": ""
+    },
+    {
+      "id": "app_210a6c019b89048c",
+      "internshipId": "int_875a5e83816a1a73",
+      "studentId": "usr_5ffc1939919be0e9",
+      "studentName": "Stud_c Test",
+      "studentEmail": "stud_c@university.edu",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "I am extremely passionate about building modern web software and would love to contribute to your team.",
+      "resumeUrl": "https://example.com/resumes/johndoe.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1-555-019-2831",
+      "university": "Stanford University",
+      "graduationYear": "2026",
+      "status": "WITHDRAWN",
+      "appliedAt": "2026-08-10T08:56:59.442Z",
+      "updatedAt": "2026-08-10T08:56:59.444Z",
+      "recruiterNotes": ""
+    },
+    {
+      "id": "app_75c17bd6f184a590",
+      "internshipId": "int_001",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878638@university.edu",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "coverLetter": "I am passionate about fullstack engineering and would love to contribute.",
+      "resumeUrl": "https://internsync.example.com/resumes/default_resume.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1 555-0199",
+      "university": "State Institute of Technology",
+      "graduationYear": "2026",
+      "status": "ACCEPTED",
+      "appliedAt": "2026-08-16T11:10:38.550Z",
+      "updatedAt": "2026-08-16T11:10:38.558Z",
+      "recruiterNotes": "Welcome to the team as a fullstack intern!",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-08-16T11:10:38.550Z",
+          "notes": "Application submitted successfully",
+          "updatedBy": "Alex Kumar"
+        },
+        {
+          "status": "ACCEPTED",
+          "timestamp": "2026-08-16T11:10:38.558Z",
+          "notes": "Welcome to the team as a fullstack intern!",
+          "updatedBy": "TechCorp Innovations"
+        }
+      ]
+    },
+    {
+      "id": "app_aa641f0bff794db1",
+      "internshipId": "int_001",
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "studentName": "Mahesh Patil",
+      "studentEmail": "maheshpatil18182424@gmail.com",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "coverLetter": "qwertyuiodefghjkdfghjk",
+      "resumeUrl": "https://www.resume.com/sample/architecture-engineering/",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Go",
+        "R",
+        "React",
+        "MongoDB"
+      ],
+      "phoneNumber": "8888888888",
+      "university": "Computer Science Student",
+      "graduationYear": "2026",
+      "status": "ACCEPTED",
+      "appliedAt": "2026-08-16T13:40:09.597Z",
+      "updatedAt": "2026-08-16T13:43:22.072Z",
+      "recruiterNotes": "Good Jb",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-08-16T13:40:09.597Z",
+          "notes": "Application submitted successfully",
+          "updatedBy": "Mahesh Patil"
+        },
+        {
+          "status": "UNDER_REVIEW",
+          "timestamp": "2026-08-16T13:43:15.814Z",
+          "notes": "Good Jb",
+          "updatedBy": "TechCorp Innovations"
+        },
+        {
+          "status": "INTERVIEWED",
+          "timestamp": "2026-08-16T13:43:19.138Z",
+          "notes": "Good Jb",
+          "updatedBy": "TechCorp Innovations"
+        },
+        {
+          "status": "ACCEPTED",
+          "timestamp": "2026-08-16T13:43:22.072Z",
+          "notes": "Good Jb",
+          "updatedBy": "TechCorp Innovations"
+        }
+      ]
+    },
+    {
+      "id": "app_e7ffdbc4036e1401",
+      "internshipId": "int_7b9c64952e0fdf63",
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "studentName": "Mahesh Patil",
+      "studentEmail": "maheshpatil18182424@gmail.com",
+      "internshipTitle": "Senior Frontend Intern",
+      "companyId": "usr_e2c8628df243cfe3",
+      "companyName": "Comp_a's Company",
+      "coverLetter": "asdfghjksdfghjklwerfgg8yu",
+      "resumeUrl": "https://www.geeksforgeeks.org/courses?source=google&medium=cpc&device=c&keyword=gfg&matchtype=b&campaignid=20039445781&adgroup=147845288105&gad_source=1&gad_campaignid=20039445781&gbraid=0AAAAAC9yBkAmv5J7AxST4AFKo5x_ElrPS&gclid=Cj0KCQjwv4XUBhDBARIsAE6bQUQvsjH6uFl73e3389M0w5fy2-GpoT0xtTLTqOxex1ywB4Fot2osxOYaAlnDEALw_wcB",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Spring",
+        "Go",
+        "R",
+        "React",
+        "MongoDB"
+      ],
+      "phoneNumber": "234567890",
+      "university": "Computer Science Student",
+      "graduationYear": "2026",
+      "status": "SUBMITTED",
+      "appliedAt": "2026-08-16T14:05:02.779Z",
+      "updatedAt": "2026-08-16T14:05:02.779Z",
+      "recruiterNotes": "",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-08-16T14:05:02.779Z",
+          "notes": "Application submitted successfully",
+          "updatedBy": "Mahesh Patil"
+        }
+      ]
+    },
+    {
+      "id": "app_f2453525f5164c95",
+      "internshipId": "int_710637515a4468a3",
+      "studentId": "usr_student_001",
+      "studentName": "Jane Doe",
+      "studentEmail": "student@university.edu",
+      "internshipTitle": "Hardware Engineer",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "coverLetter": "ed gsdsdffgsdgfsdfgsdfgsdfgsdfgsfdgsfdgsfdgsfdg",
+      "resumeUrl": "https://www.geeksforgeeks.org/courses?source=google&medium=cpc&device=c&keyword=gfg&matchtype=b&campaignid=20039445781&adgroup=147845288105&gad_source=1&gad_campaignid=20039445781&gbraid=0AAAAAC9yBkAmv5J7AxST4AFKo5x_ElrPS&gclid=Cj0KCQjwv4XUBhDBARIsAE6bQUQvsjH6uFl73e3389M0w5fy2-GpoT0xtTLTqOxex1ywB4Fot2osxOYaAlnDEALw_wcB",
+      "skills": [
+        "Java",
+        "TypeScript",
+        "React",
+        "R"
+      ],
+      "phoneNumber": "+1 555-0143",
+      "university": "Computer Science Student",
+      "graduationYear": "2026",
+      "status": "ACCEPTED",
+      "appliedAt": "2026-08-16T14:08:18.804Z",
+      "updatedAt": "2026-08-16T14:09:15.303Z",
+      "recruiterNotes": "Ready to interview",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-08-16T14:08:18.804Z",
+          "notes": "Application submitted successfully",
+          "updatedBy": "Jane Doe"
+        },
+        {
+          "status": "UNDER_REVIEW",
+          "timestamp": "2026-08-16T14:08:49.201Z",
+          "notes": "Good to go",
+          "updatedBy": "TechCorp Innovations"
+        },
+        {
+          "status": "INTERVIEWED",
+          "timestamp": "2026-08-16T14:09:06.188Z",
+          "notes": "Ready to interview",
+          "updatedBy": "TechCorp Innovations"
+        },
+        {
+          "status": "ACCEPTED",
+          "timestamp": "2026-08-16T14:09:15.303Z",
+          "notes": "Ready to interview",
+          "updatedBy": "TechCorp Innovations"
+        }
+      ]
+    },
+    {
+      "id": "app_f5974ea80fbc2a97",
+      "internshipId": "int_001",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786985306@university.edu",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyId": "usr_company_001",
+      "companyName": "TechCorp Innovations",
+      "coverLetter": "I am passionate about fullstack engineering and would love to contribute.",
+      "resumeUrl": "https://internsync.example.com/resumes/default_resume.pdf",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "phoneNumber": "+1 555-0199",
+      "university": "State Institute of Technology",
+      "graduationYear": "2026",
+      "status": "ACCEPTED",
+      "appliedAt": "2026-08-17T16:48:37.205Z",
+      "updatedAt": "2026-08-17T16:48:43.360Z",
+      "recruiterNotes": "Welcome to the team as a fullstack intern!",
+      "statusHistory": [
+        {
+          "status": "SUBMITTED",
+          "timestamp": "2026-08-17T16:48:37.205Z",
+          "notes": "Application submitted successfully",
+          "updatedBy": "Alex Kumar"
+        },
+        {
+          "status": "ACCEPTED",
+          "timestamp": "2026-08-17T16:48:43.360Z",
+          "notes": "Welcome to the team as a fullstack intern!",
+          "updatedBy": "TechCorp Innovations"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_f7f746bd4ad561cb",
+      "userId": "usr_38e895c33a2fef78",
+      "type": "APPLICATION_SUBMITTED",
+      "title": "Application Submitted",
+      "message": "Your application for \"Fullstack Software Engineering Intern\" at TechCorp Innovations was submitted successfully.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.551Z",
+      "relatedEntityId": "app_75c17bd6f184a590",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_83bc4e3912fb70f1",
+      "userId": "usr_company_001",
+      "type": "NEW_APPLICATION",
+      "title": "New Application Received",
+      "message": "Alex Kumar applied for \"Fullstack Software Engineering Intern\".",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.551Z",
+      "relatedEntityId": "app_75c17bd6f184a590",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_a7c0ac9ef1c23744",
+      "userId": "usr_38e895c33a2fef78",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Fullstack Software Engineering Intern\" at TechCorp Innovations has been updated to ACCEPTED.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.558Z",
+      "relatedEntityId": "app_75c17bd6f184a590",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_e6b2ca21826cda52",
+      "userId": "usr_38e895c33a2fef78",
+      "type": "NEW_TASK_ASSIGNED",
+      "title": "New Task Assigned",
+      "message": "You have been assigned a new task: \"Onboarding & Environment Setup\" by TechCorp Innovations. Deadline: 9/1/2026",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.577Z",
+      "relatedEntityId": "task_a4e51cbf7eae8517",
+      "relatedEntityType": "TASK"
+    },
+    {
+      "id": "notif_36c15b7af6218268",
+      "userId": "usr_38e895c33a2fef78",
+      "type": "EVALUATION_SUBMITTED",
+      "title": "Internship Evaluation Completed",
+      "message": "Your supervisor at TechCorp Innovations has submitted your official performance evaluation with Grade: A+.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.590Z",
+      "relatedEntityId": "eval_cfcab8a06f459ae4",
+      "relatedEntityType": "EVALUATION"
+    },
+    {
+      "id": "notif_bcd763e26bab8920",
+      "userId": "usr_admin_001",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.598Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_2fc7714cccd580c2",
+      "userId": "usr_fa66131287c9e110",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.598Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_7e98f0b9a1472a27",
+      "userId": "usr_07591a1bc6b210c8",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.599Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_b103d30e368d5cfd",
+      "userId": "usr_19dd1fff76a0a442",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.600Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_bc130d200d86458c",
+      "userId": "usr_19eb18bf703f3c4a",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.600Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_6c1bde06d27689d1",
+      "userId": "usr_bc94de7953854d5e",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.601Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_20d50aab254f8c36",
+      "userId": "usr_341c47cd4e2df717",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.601Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_885d2edfe20f02db",
+      "userId": "usr_df3ed0b57dc627e1",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.602Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_5433f0cc16ef9efa",
+      "userId": "usr_787210378a7d84a9",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.602Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_ccba0fbc3c99efad",
+      "userId": "usr_tpo_001",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": true,
+      "createdAt": "2026-08-16T11:10:38.603Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_03ffd51daf1ba6d9",
+      "userId": "usr_38e895c33a2fef78",
+      "type": "OFF_CAMPUS_APPROVED",
+      "title": "Off-Campus Internship Approved",
+      "message": "Your off-campus internship at Google Cloud Partner Lab has been approved by T&P. Notes: Offer verified with company supervisor. Approved for academic credit.",
+      "read": false,
+      "createdAt": "2026-08-16T11:10:38.606Z",
+      "relatedEntityId": "off_5eda47f89622f76d",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_59715c08ef2ac80e",
+      "userId": "usr_3caabbfce0ab2cd9",
+      "type": "APPLICATION_SUBMITTED",
+      "title": "Application Submitted",
+      "message": "Your application for \"Fullstack Software Engineering Intern\" at TechCorp Innovations was submitted successfully.",
+      "read": true,
+      "createdAt": "2026-08-16T13:40:09.597Z",
+      "relatedEntityId": "app_aa641f0bff794db1",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_be14f79f706e1b28",
+      "userId": "usr_company_001",
+      "type": "NEW_APPLICATION",
+      "title": "New Application Received",
+      "message": "Mahesh Patil applied for \"Fullstack Software Engineering Intern\".",
+      "read": false,
+      "createdAt": "2026-08-16T13:40:09.604Z",
+      "relatedEntityId": "app_aa641f0bff794db1",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_ba2336b9e86876ab",
+      "userId": "usr_3caabbfce0ab2cd9",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Fullstack Software Engineering Intern\" at TechCorp Innovations has been updated to UNDER_REVIEW.",
+      "read": false,
+      "createdAt": "2026-08-16T13:43:15.815Z",
+      "relatedEntityId": "app_aa641f0bff794db1",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_d27d008f3d652764",
+      "userId": "usr_3caabbfce0ab2cd9",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Fullstack Software Engineering Intern\" at TechCorp Innovations has been updated to INTERVIEWED.",
+      "read": false,
+      "createdAt": "2026-08-16T13:43:19.138Z",
+      "relatedEntityId": "app_aa641f0bff794db1",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_c83135822e7ad263",
+      "userId": "usr_3caabbfce0ab2cd9",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Fullstack Software Engineering Intern\" at TechCorp Innovations has been updated to ACCEPTED.",
+      "read": false,
+      "createdAt": "2026-08-16T13:43:22.073Z",
+      "relatedEntityId": "app_aa641f0bff794db1",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_77e19a075262bf0b",
+      "userId": "usr_3caabbfce0ab2cd9",
+      "type": "APPLICATION_SUBMITTED",
+      "title": "Application Submitted",
+      "message": "Your application for \"Senior Frontend Intern\" at Comp_a's Company was submitted successfully.",
+      "read": false,
+      "createdAt": "2026-08-16T14:05:02.779Z",
+      "relatedEntityId": "app_e7ffdbc4036e1401",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_68a410980caca98c",
+      "userId": "usr_e2c8628df243cfe3",
+      "type": "NEW_APPLICATION",
+      "title": "New Application Received",
+      "message": "Mahesh Patil applied for \"Senior Frontend Intern\".",
+      "read": false,
+      "createdAt": "2026-08-16T14:05:02.781Z",
+      "relatedEntityId": "app_e7ffdbc4036e1401",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_605d28294b79e99e",
+      "userId": "usr_student_001",
+      "type": "APPLICATION_SUBMITTED",
+      "title": "Application Submitted",
+      "message": "Your application for \"Hardware Engineer\" at TechCorp Innovations was submitted successfully.",
+      "read": false,
+      "createdAt": "2026-08-16T14:08:18.804Z",
+      "relatedEntityId": "app_f2453525f5164c95",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_bd63ee43ddaea387",
+      "userId": "usr_company_001",
+      "type": "NEW_APPLICATION",
+      "title": "New Application Received",
+      "message": "Jane Doe applied for \"Hardware Engineer\".",
+      "read": false,
+      "createdAt": "2026-08-16T14:08:18.807Z",
+      "relatedEntityId": "app_f2453525f5164c95",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_66e41f3bd8a05ec3",
+      "userId": "usr_student_001",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Hardware Engineer\" at TechCorp Innovations has been updated to UNDER_REVIEW.",
+      "read": false,
+      "createdAt": "2026-08-16T14:08:49.201Z",
+      "relatedEntityId": "app_f2453525f5164c95",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_30d8564f53fbad85",
+      "userId": "usr_student_001",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Hardware Engineer\" at TechCorp Innovations has been updated to INTERVIEWED.",
+      "read": true,
+      "createdAt": "2026-08-16T14:09:06.188Z",
+      "relatedEntityId": "app_f2453525f5164c95",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_13a1d7e2cc0d7bad",
+      "userId": "usr_student_001",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Hardware Engineer\" at TechCorp Innovations has been updated to ACCEPTED.",
+      "read": true,
+      "createdAt": "2026-08-16T14:09:15.303Z",
+      "relatedEntityId": "app_f2453525f5164c95",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_2ac05a27cee6812e",
+      "userId": "usr_22e832fac12e79e0",
+      "type": "APPLICATION_SUBMITTED",
+      "title": "Application Submitted",
+      "message": "Your application for \"Fullstack Software Engineering Intern\" at TechCorp Innovations was submitted successfully.",
+      "read": false,
+      "createdAt": "2026-08-17T16:48:37.206Z",
+      "relatedEntityId": "app_f5974ea80fbc2a97",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_8fb6b0396849ad1d",
+      "userId": "usr_company_001",
+      "type": "NEW_APPLICATION",
+      "title": "New Application Received",
+      "message": "Alex Kumar applied for \"Fullstack Software Engineering Intern\".",
+      "read": true,
+      "createdAt": "2026-08-17T16:48:37.208Z",
+      "relatedEntityId": "app_f5974ea80fbc2a97",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_3bd6f1a1bfaf1cad",
+      "userId": "usr_22e832fac12e79e0",
+      "type": "APPLICATION_STATUS_UPDATED",
+      "title": "Application Status Updated",
+      "message": "Your application status for \"Fullstack Software Engineering Intern\" at TechCorp Innovations has been updated to ACCEPTED.",
+      "read": false,
+      "createdAt": "2026-08-17T16:48:43.360Z",
+      "relatedEntityId": "app_f5974ea80fbc2a97",
+      "relatedEntityType": "APPLICATION"
+    },
+    {
+      "id": "notif_2f14911e075444ef",
+      "userId": "usr_22e832fac12e79e0",
+      "type": "NEW_TASK_ASSIGNED",
+      "title": "New Task Assigned",
+      "message": "You have been assigned a new task: \"Onboarding & Environment Setup\" by TechCorp Innovations. Deadline: 1/9/2026",
+      "read": false,
+      "createdAt": "2026-08-17T16:48:45.452Z",
+      "relatedEntityId": "task_074bc16707b0aac4",
+      "relatedEntityType": "TASK"
+    },
+    {
+      "id": "notif_69970d85f52ebca1",
+      "userId": "usr_22e832fac12e79e0",
+      "type": "EVALUATION_SUBMITTED",
+      "title": "Internship Evaluation Completed",
+      "message": "Your supervisor at TechCorp Innovations has submitted your official performance evaluation with Grade: A+.",
+      "read": false,
+      "createdAt": "2026-08-17T16:48:55.681Z",
+      "relatedEntityId": "eval_8718d8379940bf5b",
+      "relatedEntityType": "EVALUATION"
+    },
+    {
+      "id": "notif_25ac5cc1e5d9b80f",
+      "userId": "usr_admin_001",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.817Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_b9bc112c298dcf42",
+      "userId": "usr_fa66131287c9e110",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.820Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_f3df53f07404066d",
+      "userId": "usr_07591a1bc6b210c8",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.822Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_f91a191d481887c2",
+      "userId": "usr_19dd1fff76a0a442",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.825Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_e658b59cbdaff2de",
+      "userId": "usr_19eb18bf703f3c4a",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.827Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_b3239f3887189537",
+      "userId": "usr_bc94de7953854d5e",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.830Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_47dd627fb0a3d02e",
+      "userId": "usr_341c47cd4e2df717",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.834Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_0cf88312a487358c",
+      "userId": "usr_df3ed0b57dc627e1",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.836Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_eb62dfdde57938ce",
+      "userId": "usr_787210378a7d84a9",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.838Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_a888e9527e996a65",
+      "userId": "usr_tpo_001",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": true,
+      "createdAt": "2026-08-17T16:49:01.840Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_57860092b117726e",
+      "userId": "usr_0ce448caa9fe830f",
+      "type": "OFF_CAMPUS_SUBMITTED",
+      "title": "New Off-Campus Internship Submitted",
+      "message": "Alex Kumar (Computer Science) submitted an off-campus internship at Google Cloud Partner Lab for verification.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:01.842Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_cc3975e9e2d16460",
+      "userId": "usr_22e832fac12e79e0",
+      "type": "OFF_CAMPUS_APPROVED",
+      "title": "Off-Campus Internship Approved",
+      "message": "Your off-campus internship at Google Cloud Partner Lab has been approved by T&P. Notes: Offer verified with company supervisor. Approved for academic credit.",
+      "read": false,
+      "createdAt": "2026-08-17T16:49:03.896Z",
+      "relatedEntityId": "off_98591c9dc19e082c",
+      "relatedEntityType": "OFF_CAMPUS"
+    },
+    {
+      "id": "notif_905ed2d128acbfb2",
+      "userId": "usr_mentor_002",
+      "type": "NEW_MENTEE_ASSIGNED",
+      "title": "New Student Assigned",
+      "message": "Mahesh Patil has been assigned to you as a mentee.",
+      "read": false,
+      "createdAt": "2026-08-20T19:21:29.179Z",
+      "relatedEntityId": "fma_3d746a84d60b7a1e",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_97a73eafd3c3acac",
+      "userId": "usr_student_005",
+      "type": "MENTOR_ASSIGNED",
+      "title": "Faculty Mentor Assigned",
+      "message": "Dr. Rahul Sharma has been assigned as your faculty mentor.",
+      "read": false,
+      "createdAt": "2026-08-20T19:21:29.180Z",
+      "relatedEntityId": "fma_3d746a84d60b7a1e",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_9db03349939657c2",
+      "userId": "usr_mentor_002",
+      "type": "MENTEE_REASSIGNED",
+      "title": "Student Reassigned",
+      "message": "Mahesh Patil has been reassigned to another mentor.",
+      "read": false,
+      "createdAt": "2026-08-20T19:21:29.202Z",
+      "relatedEntityId": "fma_3d746a84d60b7a1e",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_e6cb1f555bdea111",
+      "userId": "usr_mentor_003",
+      "type": "NEW_MENTEE_ASSIGNED",
+      "title": "New Student Assigned",
+      "message": "Mahesh Patil has been reassigned to you as a mentee.",
+      "read": false,
+      "createdAt": "2026-08-20T19:21:29.204Z",
+      "relatedEntityId": "fma_6d19b8cc8a9a08ab",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_57d742fbeaa4e707",
+      "userId": "usr_student_005",
+      "type": "MENTOR_REASSIGNED",
+      "title": "Faculty Mentor Changed",
+      "message": "Your faculty mentor has been changed to Dr. Meera Joshi.",
+      "read": false,
+      "createdAt": "2026-08-20T19:21:29.205Z",
+      "relatedEntityId": "fma_6d19b8cc8a9a08ab",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_9b87d58c852ba598",
+      "userId": "usr_mentor_001",
+      "type": "NEW_MENTEE_ASSIGNED",
+      "title": "New Student Assigned",
+      "message": "Jane Doe has been assigned to you as a mentee.",
+      "read": false,
+      "createdAt": "2026-08-20T19:26:25.533Z",
+      "relatedEntityId": "fma_72ca491fb0d64d1f",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_68cbd54fc3179421",
+      "userId": "usr_student_001",
+      "type": "MENTOR_ASSIGNED",
+      "title": "Faculty Mentor Assigned",
+      "message": "Dr. Sneha Kulkarni has been assigned as your faculty mentor.",
+      "read": true,
+      "createdAt": "2026-08-20T19:26:25.536Z",
+      "relatedEntityId": "fma_72ca491fb0d64d1f",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_3f58d695c881c0c4",
+      "userId": "usr_mentor_003",
+      "type": "MENTEE_REASSIGNED",
+      "title": "Student Reassigned",
+      "message": "Mahesh Patil has been reassigned to another mentor.",
+      "read": false,
+      "createdAt": "2026-08-20T20:15:40.087Z",
+      "relatedEntityId": "fma_6d19b8cc8a9a08ab",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_40acc854623028e2",
+      "userId": "usr_mentor_002",
+      "type": "NEW_MENTEE_ASSIGNED",
+      "title": "New Student Assigned",
+      "message": "Mahesh Patil has been reassigned to you as a mentee.",
+      "read": true,
+      "createdAt": "2026-08-20T20:15:40.089Z",
+      "relatedEntityId": "fma_f258abcb722b07cd",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_24bc743597439775",
+      "userId": "usr_student_005",
+      "type": "MENTOR_REASSIGNED",
+      "title": "Faculty Mentor Changed",
+      "message": "Your faculty mentor has been changed to Dr. Rahul Sharma.",
+      "read": false,
+      "createdAt": "2026-08-20T20:15:40.091Z",
+      "relatedEntityId": "fma_f258abcb722b07cd",
+      "relatedEntityType": "FACULTY_MENTOR_ASSIGNMENT"
+    },
+    {
+      "id": "notif_b83506dec331aeff",
+      "userId": "usr_student_005",
+      "type": "MENTOR_GUIDANCE_ADDED",
+      "title": "Faculty Mentor Guidance",
+      "message": "Your faculty mentor Dr. Rahul Sharma added new guidance for you.",
+      "read": false,
+      "createdAt": "2026-08-20T20:15:40.107Z",
+      "relatedEntityId": "mn_85cc9386eebe958e",
+      "relatedEntityType": "MENTOR_NOTE"
+    },
+    {
+      "id": "notif_1e6fabe5ec89e129",
+      "userId": "usr_student_005",
+      "type": "MENTOR_ACTION_ITEM_ASSIGNED",
+      "title": "New Action Item Assigned",
+      "message": "Your mentor Dr. Rahul Sharma assigned an action item: \"Complete mock coding assessment and submit logbook\".",
+      "read": false,
+      "createdAt": "2026-08-20T20:15:40.113Z",
+      "relatedEntityId": "mai_b4ee3ffec552c6fe",
+      "relatedEntityType": "MENTOR_ACTION_ITEM"
+    },
+    {
+      "id": "notif_ed5388e077cbc7d8",
+      "userId": "usr_student_005",
+      "type": "MENTOR_REVIEW_SUBMITTED",
+      "title": "New Mentor Review",
+      "message": "Your faculty mentor Dr. Rahul Sharma has submitted a performance review.",
+      "read": false,
+      "createdAt": "2026-08-20T20:15:40.118Z",
+      "relatedEntityId": "mr_8cc5fa69df3d89f5",
+      "relatedEntityType": "MENTOR_REVIEW"
+    }
+  ],
+  "trainingPrograms": [],
+  "trainingAssignments": [],
+  "placementDrives": [],
+  "interventions": [
+    {
+      "id": "intv_usr_student_001",
+      "studentId": "usr_student_001",
+      "studentName": "Jane Doe",
+      "studentEmail": "student@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.8,
+      "readinessScore": 57,
+      "readinessLevel": "Developing",
+      "reasons": [
+        "Below readiness threshold (57/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.273Z"
+    },
+    {
+      "id": "intv_usr_fa29c900c0187021",
+      "studentId": "usr_fa29c900c0187021",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786348764@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.273Z"
+    },
+    {
+      "id": "intv_usr_b14672bde7c15ab9",
+      "studentId": "usr_b14672bde7c15ab9",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786348814@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.273Z"
+    },
+    {
+      "id": "intv_usr_adcc4eb31799f55e",
+      "studentId": "usr_adcc4eb31799f55e",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786348932@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.274Z"
+    },
+    {
+      "id": "intv_usr_c9ff362aa466bb86",
+      "studentId": "usr_c9ff362aa466bb86",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786349001@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.274Z"
+    },
+    {
+      "id": "intv_usr_e5fc7ac2d509c002",
+      "studentId": "usr_e5fc7ac2d509c002",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786349047@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.274Z"
+    },
+    {
+      "id": "intv_usr_8e11d5bec4742edb",
+      "studentId": "usr_8e11d5bec4742edb",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786349204@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.274Z"
+    },
+    {
+      "id": "intv_usr_c6de9dae083c23ff",
+      "studentId": "usr_c6de9dae083c23ff",
+      "studentName": "Stud_a Test",
+      "studentEmail": "stud_a@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 32,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (32/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.274Z"
+    },
+    {
+      "id": "intv_usr_9a780c2498009116",
+      "studentId": "usr_9a780c2498009116",
+      "studentName": "Stud_b Test",
+      "studentEmail": "stud_b@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 32,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (32/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.274Z"
+    },
+    {
+      "id": "intv_usr_5ffc1939919be0e9",
+      "studentId": "usr_5ffc1939919be0e9",
+      "studentName": "Stud_c Test",
+      "studentEmail": "stud_c@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 32,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (32/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.275Z"
+    },
+    {
+      "id": "intv_usr_3811f79e57f86104",
+      "studentId": "usr_3811f79e57f86104",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786351936@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.275Z"
+    },
+    {
+      "id": "intv_usr_9d5cd31521e8654b",
+      "studentId": "usr_9d5cd31521e8654b",
+      "studentName": "Alice Student",
+      "studentEmail": "student_p4_1786352230@example.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 30,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (30/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.275Z"
+    },
+    {
+      "id": "intv_usr_3caabbfce0ab2cd9",
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "studentName": "Mahesh Patil",
+      "studentEmail": "maheshpatil18182424@gmail.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 55,
+      "readinessLevel": "Developing",
+      "reasons": [
+        "Below readiness threshold (55/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.275Z"
+    },
+    {
+      "id": "intv_usr_student_002",
+      "studentId": "usr_student_002",
+      "studentName": "Rahul Sharma",
+      "studentEmail": "rahul@university.edu",
+      "department": "Information Technology",
+      "gpa": 3.5,
+      "readinessScore": 38,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (38/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.275Z"
+    },
+    {
+      "id": "intv_usr_student_003",
+      "studentId": "usr_student_003",
+      "studentName": "Priya Patel",
+      "studentEmail": "priya@university.edu",
+      "department": "Electronics & Telecom",
+      "gpa": 2.7,
+      "readinessScore": 34,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (34/100)",
+        "CGPA (2.70) requires academic counseling"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.275Z"
+    },
+    {
+      "id": "intv_usr_student_004",
+      "studentId": "usr_student_004",
+      "studentName": "Amit Verma",
+      "studentEmail": "amit@university.edu",
+      "department": "Data Science",
+      "gpa": 3.9,
+      "readinessScore": 36,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (36/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:06:30.276Z"
+    },
+    {
+      "id": "intv_usr_76bd4f7ec1150732",
+      "studentId": "usr_76bd4f7ec1150732",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878390@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 48,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (48/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:07:05.274Z"
+    },
+    {
+      "id": "intv_usr_85c2ebf1656fb345",
+      "studentId": "usr_85c2ebf1656fb345",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878425@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 48,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (48/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T11:10:38.426Z"
+    },
+    {
+      "id": "intv_usr_38e895c33a2fef78",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878638@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 50,
+      "readinessLevel": "Developing",
+      "reasons": [
+        "Below readiness threshold (50/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-16T13:30:03.101Z"
+    },
+    {
+      "id": "intv_usr_22e832fac12e79e0",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786985306@university.edu",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 50,
+      "readinessLevel": "Developing",
+      "reasons": [
+        "Task completion below 70% (50.0%): +20 pts",
+        "Below readiness threshold (50/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-20T18:06:40.050Z"
+    },
+    {
+      "id": "intv_usr_b671e9fb90bd1a32",
+      "studentId": "usr_b671e9fb90bd1a32",
+      "studentName": "Tanisha badgujar",
+      "studentEmail": "tanishabadgujar1604@gmail.com",
+      "department": "Computer Science",
+      "gpa": 3.5,
+      "readinessScore": 48,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (48/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-20T18:06:40.053Z"
+    },
+    {
+      "id": "intv_usr_student_005",
+      "studentId": "usr_student_005",
+      "studentName": "Mahesh Patil",
+      "studentEmail": "mahesh.patil@university.edu",
+      "department": "AI & ML",
+      "gpa": 3.75,
+      "readinessScore": 36,
+      "readinessLevel": "Needs Improvement",
+      "reasons": [
+        "Below readiness threshold (36/100)"
+      ],
+      "recommendedActions": [
+        "Assign Institutional Skills Accelerator Bootcamp",
+        "Schedule 1-on-1 Placement Counseling Session"
+      ],
+      "status": "PENDING",
+      "createdAt": "2026-08-20T19:29:54.234Z"
+    }
+  ],
+  "academicProfiles": {
+    "usr_student_001": {
+      "studentId": "usr_student_001",
+      "cgpa": 3.8,
+      "currentSemester": 6,
+      "totalPassedSubjects": 20,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics I",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming Fundamentals",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Electronics",
+              "credits": 4,
+              "marks": 82,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS104",
+              "name": "Communication Skills",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS105",
+              "name": "Basic Electrical Engineering",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "B+",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.65,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures & Algorithms",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming in Java",
+              "credits": 4,
+              "marks": 94,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS203",
+              "name": "Discrete Mathematics",
+              "credits": 4,
+              "marks": 84,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS204",
+              "name": "Computer Organization & Architecture",
+              "credits": 4,
+              "marks": 86,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS205",
+              "name": "Environmental Science",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "usr_76bd4f7ec1150732": {
+      "studentId": "usr_76bd4f7ec1150732",
+      "cgpa": 3.5,
+      "currentSemester": 6,
+      "totalPassedSubjects": 20,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming in C",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.6,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "usr_85c2ebf1656fb345": {
+      "studentId": "usr_85c2ebf1656fb345",
+      "cgpa": 3.5,
+      "currentSemester": 6,
+      "totalPassedSubjects": 20,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming in C",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.6,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "usr_38e895c33a2fef78": {
+      "studentId": "usr_38e895c33a2fef78",
+      "cgpa": 3.5,
+      "currentSemester": 6,
+      "totalPassedSubjects": 20,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming in C",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.6,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "usr_3caabbfce0ab2cd9": {
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "cgpa": 3.76,
+      "currentSemester": 6,
+      "totalPassedSubjects": 19,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics I",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming Fundamentals",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Electronics",
+              "credits": 4,
+              "marks": 82,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS104",
+              "name": "Communication Skills",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS105",
+              "name": "Basic Electrical Engineering",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "B+",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.65,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures & Algorithms",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming in Java",
+              "credits": 4,
+              "marks": 94,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS203",
+              "name": "Discrete Mathematics",
+              "credits": 4,
+              "marks": 84,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS204",
+              "name": "Computer Organization & Architecture",
+              "credits": 4,
+              "marks": 86,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS205",
+              "name": "Environmental Science",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 3,
+          "academicYear": "2025-2026",
+          "sgpa": 3.93,
+          "totalCredits": 14,
+          "passedCredits": 14,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS601",
+              "name": "Cloud Computing & Distributed Systems",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS602",
+              "name": "Machine Learning & Neural Networks",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS603",
+              "name": "DevOps & Microservices Lab",
+              "credits": 6,
+              "marks": 95,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 4,
+          "academicYear": "2025-2026",
+          "sgpa": 3.93,
+          "totalCredits": 14,
+          "passedCredits": 14,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS601",
+              "name": "Cloud Computing & Distributed Systems",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS602",
+              "name": "Machine Learning & Neural Networks",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS603",
+              "name": "DevOps & Microservices Lab",
+              "credits": 6,
+              "marks": 95,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 5,
+          "academicYear": "2025-2026",
+          "sgpa": 3.93,
+          "totalCredits": 14,
+          "passedCredits": 14,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS601",
+              "name": "Cloud Computing & Distributed Systems",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS602",
+              "name": "Machine Learning & Neural Networks",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS603",
+              "name": "DevOps & Microservices Lab",
+              "credits": 6,
+              "marks": 95,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "usr_22e832fac12e79e0": {
+      "studentId": "usr_22e832fac12e79e0",
+      "cgpa": 3.5,
+      "currentSemester": 6,
+      "totalPassedSubjects": 20,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming in C",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.6,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    },
+    "usr_b671e9fb90bd1a32": {
+      "studentId": "usr_b671e9fb90bd1a32",
+      "cgpa": 3.5,
+      "currentSemester": 6,
+      "totalPassedSubjects": 20,
+      "totalFailedSubjects": 0,
+      "backlogsCount": 0,
+      "semesters": [
+        {
+          "semester": 1,
+          "academicYear": "2023-2024",
+          "sgpa": 3.5,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS101",
+              "name": "Engineering Mathematics",
+              "credits": 4,
+              "marks": 85,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS102",
+              "name": "Programming in C",
+              "credits": 4,
+              "marks": 90,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            },
+            {
+              "code": "CS103",
+              "name": "Digital Logic Design",
+              "credits": 4,
+              "marks": 80,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            }
+          ]
+        },
+        {
+          "semester": 2,
+          "academicYear": "2023-2024",
+          "sgpa": 3.6,
+          "totalCredits": 20,
+          "passedCredits": 20,
+          "status": "PASS",
+          "subjects": [
+            {
+              "code": "CS201",
+              "name": "Data Structures",
+              "credits": 4,
+              "marks": 88,
+              "maxMarks": 100,
+              "grade": "A",
+              "status": "PASS"
+            },
+            {
+              "code": "CS202",
+              "name": "Object Oriented Programming",
+              "credits": 4,
+              "marks": 92,
+              "maxMarks": 100,
+              "grade": "A+",
+              "status": "PASS"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "offCampusInternships": [
+    {
+      "id": "off_5eda47f89622f76d",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878638@university.edu",
+      "rollNumber": "CS-2026-638",
+      "department": "Computer Science",
+      "companyName": "Google Cloud Partner Lab",
+      "internshipTitle": "Cloud Architecture Fellow",
+      "description": "Building serverless microservices and multi-region deployment automation.",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "duration": "6 Months",
+      "location": "Remote",
+      "mode": "REMOTE",
+      "stipend": "$4000/month",
+      "offerLetterUrl": "https://example.com/offer.pdf",
+      "supervisorName": "David Miller",
+      "supervisorEmail": "david.m@partnerlab.example.com",
+      "supervisorPhone": "+1 555-0188",
+      "status": "APPROVED",
+      "createdAt": "2026-08-16T11:10:38.598Z",
+      "updatedAt": "2026-08-16T11:10:38.606Z",
+      "verificationNotes": "Offer verified with company supervisor. Approved for academic credit.",
+      "verifiedBy": "Mahesh Patil (TPO)",
+      "verifiedAt": "2026-08-16T11:10:38.606Z"
+    },
+    {
+      "id": "off_98591c9dc19e082c",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786985306@university.edu",
+      "rollNumber": "CS-2026-306",
+      "department": "Computer Science",
+      "companyName": "Google Cloud Partner Lab",
+      "internshipTitle": "Cloud Architecture Fellow",
+      "description": "Building serverless microservices and multi-region deployment automation.",
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "duration": "6 Months",
+      "location": "Remote",
+      "mode": "REMOTE",
+      "stipend": "$4000/month",
+      "offerLetterUrl": "https://example.com/offer.pdf",
+      "supervisorName": "David Miller",
+      "supervisorEmail": "david.m@partnerlab.example.com",
+      "supervisorPhone": "+1 555-0188",
+      "status": "APPROVED",
+      "createdAt": "2026-08-17T16:49:01.817Z",
+      "updatedAt": "2026-08-17T16:49:03.895Z",
+      "verificationNotes": "Offer verified with company supervisor. Approved for academic credit.",
+      "verifiedBy": "Mahesh Patil (TPO)",
+      "verifiedAt": "2026-08-17T16:49:03.895Z"
+    }
+  ],
+  "attendanceRecords": [
+    {
+      "id": "att_c9c85fd18144bbe2",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878638@university.edu",
+      "department": "Computer Science",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Innovations",
+      "date": "2026-08-16",
+      "timestamp": "2026-08-16T11:10:38.586Z",
+      "status": "PRESENT",
+      "notes": "Daily morning standup check-in"
+    },
+    {
+      "id": "att_142ef123c5606d88",
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "studentName": "Mahesh Patil",
+      "studentEmail": "maheshpatil18182424@gmail.com",
+      "department": "Computer Science",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Solutions",
+      "date": "2026-08-16",
+      "timestamp": "2026-08-16T13:27:41.215Z",
+      "status": "PRESENT",
+      "notes": "Daily check-in completed via student portal"
+    },
+    {
+      "id": "att_25b698cb9ffc7860",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786985306@university.edu",
+      "department": "Computer Science",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Innovations",
+      "date": "2026-08-17",
+      "timestamp": "2026-08-17T16:48:51.584Z",
+      "status": "PRESENT",
+      "notes": "Daily morning standup check-in"
+    },
+    {
+      "id": "att_0e194b106aeba7bb",
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "studentName": "Mahesh Patil",
+      "studentEmail": "maheshpatil18182424@gmail.com",
+      "department": "Computer Science",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Innovations",
+      "date": "2026-08-20",
+      "timestamp": "2026-08-20T16:16:47.333Z",
+      "status": "PRESENT",
+      "notes": "Daily check-in completed via student portal"
+    },
+    {
+      "id": "att_01b18d27641ebe12",
+      "studentId": "usr_student_001",
+      "studentName": "Jane Doe",
+      "studentEmail": "student@university.edu",
+      "department": "Computer Science",
+      "internshipId": "int_710637515a4468a3",
+      "internshipTitle": "Hardware Engineer",
+      "companyName": "TechCorp Innovations",
+      "date": "2026-08-20",
+      "timestamp": "2026-08-20T19:04:53.000Z",
+      "status": "PRESENT",
+      "notes": "Daily check-in completed via student portal"
+    }
+  ],
+  "internshipTasks": [
+    {
+      "id": "task_b545386535e09e8b",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Innovations",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "title": "Complete Onboarding & System Access Setup",
+      "description": "Read the developer handbook, configure local dev environment, and submit access credentials request.",
+      "assignedBy": "TechCorp Innovations",
+      "assignedDate": "2026-08-16T11:10:38.558Z",
+      "deadline": "2026-08-23T11:10:38.558Z",
+      "status": "IN_PROGRESS",
+      "progressPercentage": 50,
+      "createdAt": "2026-08-16T11:10:38.558Z"
+    },
+    {
+      "id": "task_a4e51cbf7eae8517",
+      "internshipId": "int_001",
+      "internshipTitle": "Internship Program Task",
+      "companyName": "TechCorp Innovations",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "title": "Onboarding & Environment Setup",
+      "description": "Set up the local development environment and run initial sanity tests.",
+      "assignedBy": "TechCorp Innovations",
+      "assignedDate": "2026-08-16T11:10:38.561Z",
+      "deadline": "2026-09-01T18:00:00Z",
+      "status": "COMPLETED",
+      "progressPercentage": 100,
+      "createdAt": "2026-08-16T11:10:38.561Z",
+      "submissionUrl": "https://github.com/alexkumar/onboarding-setup",
+      "submissionNotes": "Environment setup verified and test suite running cleanly.",
+      "completedAt": "2026-08-16T11:10:38.583Z"
+    },
+    {
+      "id": "task_1d3e736e76d272e7",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Innovations",
+      "studentId": "usr_3caabbfce0ab2cd9",
+      "studentName": "Mahesh Patil",
+      "title": "Complete Onboarding & System Access Setup",
+      "description": "Read the developer handbook, configure local dev environment, and submit access credentials request.",
+      "assignedBy": "TechCorp Innovations",
+      "assignedDate": "2026-08-16T13:43:22.072Z",
+      "deadline": "2026-08-23T13:43:22.073Z",
+      "status": "IN_PROGRESS",
+      "progressPercentage": 50,
+      "createdAt": "2026-08-16T13:43:22.072Z"
+    },
+    {
+      "id": "task_f88fe03b97ef4dee",
+      "internshipId": "int_710637515a4468a3",
+      "internshipTitle": "Hardware Engineer",
+      "companyName": "TechCorp Innovations",
+      "studentId": "usr_student_001",
+      "studentName": "Jane Doe",
+      "title": "Complete Onboarding & System Access Setup",
+      "description": "Read the developer handbook, configure local dev environment, and submit access credentials request.",
+      "assignedBy": "TechCorp Innovations",
+      "assignedDate": "2026-08-16T14:09:15.303Z",
+      "deadline": "2026-08-23T14:09:15.303Z",
+      "status": "IN_PROGRESS",
+      "progressPercentage": 50,
+      "createdAt": "2026-08-16T14:09:15.303Z"
+    },
+    {
+      "id": "task_fbd862581a5fb0c3",
+      "internshipId": "int_001",
+      "internshipTitle": "Fullstack Software Engineering Intern",
+      "companyName": "TechCorp Innovations",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "title": "Complete Onboarding & System Access Setup",
+      "description": "Read the developer handbook, configure local dev environment, and submit access credentials request.",
+      "assignedBy": "TechCorp Innovations",
+      "assignedDate": "2026-08-17T16:48:43.360Z",
+      "deadline": "2026-08-24T16:48:43.360Z",
+      "status": "IN_PROGRESS",
+      "progressPercentage": 50,
+      "createdAt": "2026-08-17T16:48:43.360Z"
+    },
+    {
+      "id": "task_074bc16707b0aac4",
+      "internshipId": "int_001",
+      "internshipTitle": "Internship Program Task",
+      "companyName": "TechCorp Innovations",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "title": "Onboarding & Environment Setup",
+      "description": "Set up the local development environment and run initial sanity tests.",
+      "assignedBy": "TechCorp Innovations",
+      "assignedDate": "2026-08-17T16:48:45.405Z",
+      "deadline": "2026-09-01T18:00:00Z",
+      "status": "COMPLETED",
+      "progressPercentage": 100,
+      "createdAt": "2026-08-17T16:48:45.405Z",
+      "submissionUrl": "https://github.com/alexkumar/onboarding-setup",
+      "submissionNotes": "Environment setup verified and test suite running cleanly.",
+      "completedAt": "2026-08-17T16:48:49.543Z"
+    }
+  ],
+  "internshipEvaluations": [
+    {
+      "id": "eval_cfcab8a06f459ae4",
+      "internshipId": "int_001",
+      "internshipTitle": "Internship Evaluation",
+      "studentId": "usr_38e895c33a2fef78",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786878638@university.edu",
+      "department": "Computer Science",
+      "companyName": "TechCorp Innovations",
+      "evaluatorName": "TechCorp Recruitment",
+      "evaluatorRole": "Recruiting & Internship Manager",
+      "technicalScore": 95,
+      "attendanceScore": 98,
+      "taskCompletionScore": 92,
+      "professionalismScore": 96,
+      "overallScore": 95.3,
+      "grade": "A+",
+      "feedback": "Alex showed tremendous initiative during onboarding and delivered high quality work.",
+      "recommendations": "Recommend for continued high-responsibility engineering modules.",
+      "evaluatedAt": "2026-08-16T11:10:38.590Z"
+    },
+    {
+      "id": "eval_8718d8379940bf5b",
+      "internshipId": "int_001",
+      "internshipTitle": "Internship Evaluation",
+      "studentId": "usr_22e832fac12e79e0",
+      "studentName": "Alex Kumar",
+      "studentEmail": "test_student_1786985306@university.edu",
+      "department": "Computer Science",
+      "companyName": "TechCorp Innovations",
+      "evaluatorName": "TechCorp Recruitment",
+      "evaluatorRole": "Recruiting & Internship Manager",
+      "technicalScore": 95,
+      "attendanceScore": 98,
+      "taskCompletionScore": 92,
+      "professionalismScore": 96,
+      "overallScore": 95.3,
+      "grade": "A+",
+      "feedback": "Alex showed tremendous initiative during onboarding and delivered high quality work.",
+      "recommendations": "Recommend for continued high-responsibility engineering modules.",
+      "evaluatedAt": "2026-08-17T16:48:55.681Z"
+    }
+  ],
+  "internshipLifecycles": [],
+  "internshipDocuments": [],
+  "weeklyReports": [],
+  "mentorAssignments": [],
+  "mentorReviews": [
+    {
+      "id": "mr_8cc5fa69df3d89f5",
+      "mentorId": "usr_mentor_002",
+      "mentorName": "Dr. Rahul Sharma",
+      "studentId": "usr_student_005",
+      "internshipId": "",
+      "reviewType": "GENERAL",
+      "comment": "{\"feedback\":\"Mahesh has demonstrated solid technical aptitude and consistent learning velocity.\",\"strengths\":\"Strong analytical skills, solid fundamentals in AI & ML\",\"concerns\":\"Ensure internship logbooks are submitted on a weekly cadence\",\"actionItems\":\"Maintain >= 80% attendance and complete project milestones\"}",
+      "rating": 4,
+      "createdAt": "2026-08-20T20:15:40.118Z"
+    }
+  ],
+  "auditLog": [],
+  "ppos": [],
+  "facultyMentorAssignments": [
+    {
+      "id": "fma_3d746a84d60b7a1e",
+      "studentId": "usr_student_005",
+      "mentorId": "usr_mentor_002",
+      "assignedBy": "usr_tpo_001",
+      "assignedAt": "2026-08-20T19:21:29.179Z",
+      "status": "INACTIVE",
+      "endedAt": "2026-08-20T19:21:29.202Z",
+      "reason": "Department transfer test"
+    },
+    {
+      "id": "fma_6d19b8cc8a9a08ab",
+      "studentId": "usr_student_005",
+      "mentorId": "usr_mentor_003",
+      "assignedBy": "usr_tpo_001",
+      "assignedAt": "2026-08-20T19:21:29.202Z",
+      "status": "INACTIVE",
+      "endedAt": "2026-08-20T20:15:40.087Z",
+      "reason": "Workspace test setup"
+    },
+    {
+      "id": "fma_72ca491fb0d64d1f",
+      "studentId": "usr_student_001",
+      "mentorId": "usr_mentor_001",
+      "assignedBy": "usr_tpo_001",
+      "assignedAt": "2026-08-20T19:26:25.533Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "fma_f258abcb722b07cd",
+      "studentId": "usr_student_005",
+      "mentorId": "usr_mentor_002",
+      "assignedBy": "usr_tpo_001",
+      "assignedAt": "2026-08-20T20:15:40.087Z",
+      "status": "ACTIVE"
+    }
+  ],
+  "mentorNotes": [
+    {
+      "id": "mn_85cc9386eebe958e",
+      "mentorId": "usr_mentor_002",
+      "studentId": "usr_student_005",
+      "type": "GUIDANCE",
+      "content": "Discussed project architecture and technical preparation for upcoming placements.",
+      "createdAt": "2026-08-20T20:15:40.107Z"
+    }
+  ],
+  "mentorActionItems": [
+    {
+      "id": "mai_b4ee3ffec552c6fe",
+      "mentorId": "usr_mentor_002",
+      "studentId": "usr_student_005",
+      "title": "Complete mock coding assessment and submit logbook",
+      "description": "Solve 3 medium level problems on DSA and finalize week 4 logbook.",
+      "status": "COMPLETED",
+      "dueDate": "2026-08-30",
+      "createdAt": "2026-08-20T20:15:40.113Z",
+      "updatedAt": "2026-08-20T20:15:40.128Z",
+      "completedAt": "2026-08-20T20:15:40.128Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "InternSync",
+  "description": "Unified University Internship & Training Placement Management Platform connecting Students, Companies, and T&P with 360° Academic Records, Off-Campus Audits, Attendance, Tasks, and Performance Evaluations",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
